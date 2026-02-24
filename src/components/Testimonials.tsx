@@ -9,14 +9,14 @@ const testimonials = [
     rating: 5
   },
   {
-    name: 'Bappon Das',
+    name: 'Priya Sharma',
     role: 'Owner, The Ben Cafe',
     content: 'The Ben Cafe website created by NextGen Web Solutions is absolutely stunning! The dark premium aesthetic perfectly matches our brand identity. Their team was professional, timely, and understood our vision completely. Best investment for our business!',
     image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
     rating: 5
   },
   {
-    name: 'Priya Sharma',
+    name: 'Bappon Das',
     role: 'Founder, StyleHub Boutique',
     content: 'I needed an e-commerce website on a tight budget and timeline. NextGen delivered a beautiful, fast site with amazing dark theme design. My customers love shopping on it, and sales have doubled since launch!',
     image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
