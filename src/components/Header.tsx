@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X,} from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,45 +13,45 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-md z-40">
+    <header className="fixed top-0 left-0 right-0 bg-gradient-to-r from-slate-900 to-blue-900 backdrop-blur-md shadow-lg z-40 text-white border-b border-white/10">
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="/images/logo2.png"
-              alt="NextGen Logo"
-              className="w-20 h-20 object-contain"
+              src="/images/bn.logo.png"
+              alt="BN Tech Innovations Logo"
+              className="w-48 object-contain"
             />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              className="text-white-700 hover:text-blue-600 font-medium transition-colors"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              className="text-white-700 hover:text-blue-600 font-medium transition-colors"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              className="text-white-700 hover:text-blue-600 font-medium transition-colors"
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection('portfolio')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              className="text-white-700 hover:text-blue-600 font-medium transition-colors"
             >
               Portfolio
             </button>
             <button
               onClick={() => scrollToSection('pricing')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              className="text-white-700 hover:text-blue-600 font-medium transition-colors"
             >
               Pricing
             </button>

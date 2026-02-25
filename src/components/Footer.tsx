@@ -1,4 +1,4 @@
-import { Code2, Mail, Phone, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Mail, Phone, Instagram, Facebook, Twitter } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,10 +7,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Code2 size={24} />
-              </div>
-              <span className="text-lg font-bold">NextGen Web</span>
+              <div className="flex items-center gap-2">
+            <img
+              src="/images/bn.logo.png"
+              alt="BN Tech Innovations Logo"
+              className="w-48 object-contain"
+            />
+          </div>
             </div>
             <p className="text-gray-400 text-sm">
               Building high-converting websites for businesses across India.
@@ -46,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>contact@nextgenweb.com</span>
+                <span>bntechinnovations@gmail.com</span>
               </li>
             </ul>
             <div className="flex gap-4 mt-4">
@@ -79,7 +82,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; 2024 NextGen Web Solutions. All rights reserved.</p>
+          <p>&copy; 2026 BN Tech Innovations. All rights reserved.</p>
         </div>
       </div>
     </footer>
