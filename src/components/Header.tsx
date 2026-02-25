@@ -64,7 +64,7 @@ export default function Header() {
           </div>
 
           <button
-            className="md:hidden text-slate-900"
+            className="md:hidden text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -76,31 +76,31 @@ export default function Header() {
           <div className="md:hidden mt-4 pb-4 space-y-4">
             <button
               onClick={() => scrollToSection('home')}
-              className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
+              className="block w-full text-left text-white-700 hover:text-blue-600 font-medium transition-colors py-2"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
+              className="block w-full text-left text-white-700 hover:text-blue-600 font-medium transition-colors py-2"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
+              className="block w-full text-left text-white-700 hover:text-blue-600 font-medium transition-colors py-2"
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection('portfolio')}
-              className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
+              className="block w-full text-left text-white-700 hover:text-blue-600 font-medium transition-colors py-2"
             >
               Portfolio
             </button>
             <button
               onClick={() => scrollToSection('pricing')}
-              className="block w-full text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2"
+              className="block w-full text-left text-white-700 hover:text-blue-600 font-medium transition-colors py-2"
             >
               Pricing
             </button>
