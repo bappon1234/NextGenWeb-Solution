@@ -4,8 +4,8 @@ const features = [
   {
     icon: Zap,
     title: 'Fast Delivery',
-    description: '3-7 Days',
-    detail: 'Quick turnaround without compromising quality'
+    description: 'Project-Based Timeline',
+    detail: 'Quick turnaround with delivery time based on project requirements and complexity.'
   },
   {
     icon: DollarSign,
